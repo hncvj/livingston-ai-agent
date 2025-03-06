@@ -34,9 +34,9 @@ ULTRAVOX_SAMPLE_RATE   = 8000
 ULTRAVOX_BUFFER_SIZE   = 60        
 
 CALENDARS_LIST = {
-            "LOCATION1": "CALENDAR_EMAIL1",
-            "LOCATION2": "CALENDAR_EMAIL2",
-            "LOCATION3": "CALENDAR_EMAIL3",
+            "Livingston": "M2U5MmI2MDI4MTdiMWQxOTcyM2QyYmJmMDhhNzM0ZGZhY2MyNGU0MTNmYTI0ZjE1OTBlNWE1OTc2Njg0MmQzMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+            "Mumbai": "NDgwMzU0NDAzN2FmNWU0OTA3Y2Y0MDk5NzhmOTczZjc0MTljMDNhOTNiYmM0YzFmODQ1Y2I4NDM0ZGQ4MTUwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+            "San Diego": "ZTI5NzUyNTE4NDg0NGVlMzU3M2E0OTlkNzNmZTMwM2YyOGYzM2VjZjdmZTY0ODM1MWUwMTM4MTVjNzhhNWUwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
             # Add more locations / Calendar IDs as needed
         }
                  
