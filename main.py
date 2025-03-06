@@ -29,7 +29,7 @@ TWILIO_PHONE_NUMBER = os.environ.get('TWILIO_PHONE_NUMBER')
 
 # Ultravox defaults
 ULTRAVOX_MODEL         = "fixie-ai/ultravox-70B"
-ULTRAVOX_VOICE         = "Tanya-English"   # or “Mark”
+ULTRAVOX_VOICE         = "Mark"   # or “Mark”
 ULTRAVOX_SAMPLE_RATE   = 8000        
 ULTRAVOX_BUFFER_SIZE   = 60        
 
@@ -77,7 +77,7 @@ async def incoming_call(request: Request):
     print('Session ID (CallSid):', session_id)
 
     # Fetch first message from N8N
-    first_message = "Hey, this is Sara from Agenix AI solutions. How can I assist you today?"
+    first_message = "Hey, this is James from Livingston properties. How can I assist you today?"
     print("Fetching N8N ...")
     try:
         webhook_response = requests.post(
@@ -532,7 +532,7 @@ async def create_ultravox_call(system_prompt: str, first_message: str) -> str:
             {
                 "temporaryTool": {
                     "modelToolName": "question_and_answer",
-                    "description": "Get answers to customer questions especially about AI employees",
+                    "description": "Get answers to customer questions especially about real estate properties",
                     "dynamicParameters": [
                         {
                             "name": "question",
@@ -594,7 +594,7 @@ async def create_ultravox_call(system_prompt: str, first_message: str) -> str:
                             "location": "PARAMETER_LOCATION_BODY",
                             "schema": {
                                 "type": "string",
-                                "enum": ["London", "Manchester", "Brighton"],
+                                "enum": ["San Diego", "Livingston", "Mumbai"],
                                 "description": "Meeting location"
                             },
                             "required": True
