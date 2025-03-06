@@ -34,9 +34,9 @@ ULTRAVOX_SAMPLE_RATE   = 8000
 ULTRAVOX_BUFFER_SIZE   = 60        
 
 CALENDARS_LIST = {
-            "Livingston": "M2U5MmI2MDI4MTdiMWQxOTcyM2QyYmJmMDhhNzM0ZGZhY2MyNGU0MTNmYTI0ZjE1OTBlNWE1OTc2Njg0MmQzMkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-            "Mumbai": "NDgwMzU0NDAzN2FmNWU0OTA3Y2Y0MDk5NzhmOTczZjc0MTljMDNhOTNiYmM0YzFmODQ1Y2I4NDM0ZGQ4MTUwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
-            "San Diego": "ZTI5NzUyNTE4NDg0NGVlMzU3M2E0OTlkNzNmZTMwM2YyOGYzM2VjZjdmZTY0ODM1MWUwMTM4MTVjNzhhNWUwM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t",
+            "Livingston": "e297525184844ee3573a499d73fe303f28f33ecf7fe648351e013815c78a5e03@group.calendar.google.com",
+            "Mumbai": "4803544037af5e4907cf409978f973f7419c03a93bbc4c1f845cb8434dd81508@group.calendar.google.com",
+            "San Diego": "e297525184844ee3573a499d73fe303f28f33ecf7fe648351e013815c78a5e03@group.calendar.google.com",
             # Add more locations / Calendar IDs as needed
         }
                  
