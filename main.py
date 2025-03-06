@@ -34,9 +34,9 @@ ULTRAVOX_SAMPLE_RATE   = 8000
 ULTRAVOX_BUFFER_SIZE   = 60        
 
 CALENDARS_LIST = {
+            "San Diego": "e297525184844ee3573a499d73fe303f28f33ecf7fe648351e013815c78a5e03@group.calendar.google.com",
             "Livingston": "e297525184844ee3573a499d73fe303f28f33ecf7fe648351e013815c78a5e03@group.calendar.google.com",
             "Mumbai": "4803544037af5e4907cf409978f973f7419c03a93bbc4c1f845cb8434dd81508@group.calendar.google.com",
-            "San Diego": "e297525184844ee3573a499d73fe303f28f33ecf7fe648351e013815c78a5e03@group.calendar.google.com",
             # Add more locations / Calendar IDs as needed
         }
                  
